@@ -1,0 +1,312 @@
+/* <!--This is where the Logo, and navigational links are found.--> */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    font-family: Nunito;
+}
+
+body {
+    border: 2px solid #1F2937;
+    margin:auto;
+    width: 1200px;
+}
+
+.header-menu {
+    height: 150px;
+    width: 1200px;
+    background-color: #1F2937;
+}
+
+#logo {
+    width: 110px;
+    height: 60px;
+    margin-left: 7%;
+}
+
+#crypto {
+
+    width: 300px;
+    color: #E5E7EB;
+    font-weight: 600;
+    font-size: 180%;
+    margin-left: 25%;
+}
+
+.logo {
+    width: 235px;
+    float: left;
+}
+
+.link-header-menu {
+    color: white;
+    width: 600px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+    float: right;
+}
+
+/*  <!--This is where the header, image, H1, P and button is found.--> */
+
+.header {
+
+    width: auto;
+    height: 400px;
+    background-color: #1F2937;
+}
+
+.text-header {
+    color: #F9FAF8;
+    width: 299px;
+    height: 195px;
+    margin-top: 2%;
+    margin-left: 8.5%;
+    float: left;
+
+}
+
+.header-image {
+    
+    width: 650px;
+    height: 195.5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    float: right;
+    margin-top: 2%;
+    margin-right: 8.5%;
+}
+
+#header-img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+#button-header {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px #3883F6 solid;
+    color: white;
+    font-weight: 600;
+    background-color: #3883F6;
+    border-radius: 5px;
+    height: 29px;
+    width: 80px;
+    cursor: pointer;
+}
+
+
+
+/* <!--This is where the random information is held.--> */
+
+.random-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+
+
+}
+
+#img1 {
+    border-radius: 20px;
+    width: 195px;
+    height: 150px;
+}
+
+#img2 {
+    border-radius: 20px;
+    width: 195px;
+    height: 150px;
+}
+
+#img3 {
+    border-radius: 20px;
+    width: 195px;
+    height: 150px;
+}
+
+#img4 {
+    border-radius: 20px;
+    width: 195px;
+    height: 150px;
+}
+
+
+
+.random-header {
+
+    width: 400px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.random-boxes {
+    margin-top: 5%;
+    position: absolute;
+    height: 75px;
+
+}
+
+
+.random-box-layout {
+    height: 100;
+    width: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.text1 {
+
+
+    text-align: center;
+}
+
+.text2 {
+
+
+    text-align: center;
+}
+
+.text3 {
+
+
+    text-align: center;
+}
+
+.text4 {
+
+
+    text-align: center;
+}
+
+
+
+
+
+
+.boxes-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.box1 {
+    border: 6px solid #3883F6;
+    height: 150px;
+    width: 22%;
+    border-radius: 10px;
+}
+
+.box2 {
+    border: 6px solid #3883F6;
+    height: 150px;
+    width: 22%;
+    border-radius: 10px;
+}
+
+.box3 {
+    border: 6px solid #3883F6;
+    height: 150px;
+    width: 22%;
+    border-radius: 10px;
+}
+
+.box4 {
+    border: 6px solid #3883F6;
+    height: 150px;
+    width: 22%;
+    border-radius: 10px;
+}
+
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quote {
+    width: 500px;
+    font-size: 210%;
+    margin-top: 4%;
+}
+
+.quote-autho {
+    margin-top: 22%;
+}
+
+.action-box {
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.action-text {
+    color: #E5E7EB;
+    border-radius: 10px;
+    background-color: #3883F6;
+    margin-top: 7%;
+    height: 100px;
+    width: 800px;
+    float: left;
+}
+
+#call-button {
+    margin-left: 10%;
+    width: 70px;
+    color: #E5E7EB;
+    background-color: #3883F6;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+    float: inline-end;
+    position:relative;
+    left:-190px;
+    top:-28px;
+
+}
+
+#one {
+    position:relative;
+    top: 10px;
+    margin-left: 19%;
+}
+
+
+#two{
+    margin-left:19% ;
+    position:relative;
+    top:-16px ;
+    
+}
+
+.footer{
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    height: 75px;
+}
+
+#three{
+    position:relative;
+    top:4px;
+}
+
+#tk{
+    position: relative;
+    top:14px ;
+}
